@@ -1,0 +1,14 @@
+service:
+  name: serverless-vault-plugin
+
+provider:
+  name: aws
+  stage: "develop"
+  region: "us-east-1"
+
+
+
+plugins:
+  modules:
+    - ./plugin1.js
+
